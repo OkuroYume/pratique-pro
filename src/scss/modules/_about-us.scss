@@ -1,16 +1,37 @@
 .about-us {
   border-top: 1px #000 solid;
   border-bottom: 1px #000 solid;
-}
-
-.about-us img {
-  width: 634px;
-  height: 784px;
-  border: 1px #000 solid;
-  margin: 43px;
+  margin-bottom: 43px;
 }
 
 .about-us-img {
   border-right: 1px #000 solid;
-  max-width: 720px;
+  padding: 43px;
+}
+
+.about-us p {
+  color: #221f1f;
+  font-size: 18px;
+  width: 512px;
+  margin-bottom: 21px;
+}
+
+.about-us a {
+  display: flex;
+  width: 240px;
+  padding: 10px 20px;
+  gap: 27px;
+  border-radius: 30px;
+  border: 1px solid #221f1f;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 86px;
+}
+
+.about-us h2 {
+  margin: 134px 0 29px;
+}
+
+.about-us-content {
+  margin-left: 88px;
 }
