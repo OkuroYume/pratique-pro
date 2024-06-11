@@ -1,0 +1,35 @@
+.banner {
+  background-image: url(/img/Background-2.jpg);
+  background-size: cover;
+  height: 846px;
+  margin-bottom: 43px;
+  border: 1 px black solid;
+}
+
+.banner-haute-qualite {
+  margin-top: 215px;
+  transition: 0.5s;
+}
+
+.banner-haute-qualite:hover {
+  margin-top: 215px;
+  transform: scale(115%);
+}
+
+.banner-artisanale {
+  margin-top: 45px;
+  transition: 0.5s;
+}
+
+.banner-artisanale:hover {
+  transform: scale(115%);
+}
+
+.banner-unique {
+  margin-top: 45px;
+  transition: 0.5s;
+}
+
+.banner-unique:hover {
+  transform: scale(115%);
+}
