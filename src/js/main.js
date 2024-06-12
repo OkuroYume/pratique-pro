@@ -23,14 +23,8 @@ function toggleMenu(event) {
   var hideLogo = document.getElementById("hideLogo");
 
   menuItems.classList.toggle("show");
-  burgerMenu.classList.toggle("change");
   hideOnMenu.classList.toggle("hide");
   hideLogo.classList.toggle("hide");
 }
 
-document
-  .querySelector(".burger-menu")
-  .addEventListener("click", function (event) {
-    event.preventDefault();
-    toggleMenu(event);
-  });
+document.querySelector(".burger-menu").addEventListener("click", toggleMenu);
