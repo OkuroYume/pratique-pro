@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/bzo2dzh.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="container">
         <div class="row">
           <div class="col-6">
@@ -18,12 +18,27 @@
                 <div class="bar"></div>
                 <div class="bar"></div>
               </div>
-              <div class="menu-items" id="menuItems"></div>
+              <div class="menu-items" id="menuItems">
+                <a href="#about_us">NOTRE HISTOIRE</a>
+                <a href="#nos_bieres">NOS BIÈRES</a>
+                <a href="#shop">SHOP</a>
+                <a href="#contact">CONTACT</a>
+              </div>
             </div>
           </div>
           <div class="col-6">
             <div class="header-settings">
-              <img src="/img/symbols.svg" alt="" />
+              <fieldset class="header-language">
+                <select id="country" name="country">
+                  <option value="FR">FR</option>
+                  <option value="DE">DE</option>
+                  <option value="EN">EN</option>
+                </select>
+              </fieldset>
+              <a href=""
+                ><img src="/img/shoppping_chart.svg" alt="Shopping chart"
+              /></a>
+              <a href=""><img src="/img/log_in.svg" alt="Log in" /></a>
             </div>
           </div>
         </div>
@@ -57,7 +72,7 @@
       </div>
     </header>
     <main>
-      <div class="about-us">
+      <div class="about-us" id="about_us">
         <div class="container-fluid">
           <div class="row">
             <div class="col-6">
@@ -140,7 +155,7 @@
           </div>
         </div>
       </div>
-      <div class="footer-2">
+      <div id="contact" class="footer-2">
         <div class="container">
           <div class="row">
             <div class="col-2">

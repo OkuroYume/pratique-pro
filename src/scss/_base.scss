@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --arrow-icon: url(/img/arrow_small.svg);
 }
 
 /* ====================================
@@ -16,7 +17,7 @@
 }
 
 html {
-  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
