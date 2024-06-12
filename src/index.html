@@ -11,12 +11,19 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-6">
             <div class="header-nav">
-              <img src="/img/Burger Menu.svg" alt="Burger menu" /><img
-                src="/img/symbols.svg"
-                alt=""
-              />
+              <div class="burger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+              <div class="menu-items" id="menuItems"></div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="header-settings">
+              <img src="/img/symbols.svg" alt="" />
             </div>
           </div>
         </div>
@@ -24,14 +31,20 @@
       <div class="container">
         <div class="row">
           <div class="col-8">
-            <img class="header-logo" src="/img/logo.svg" alt="logo Licorne" />
+            <img
+              class="header-logo"
+              src="/img/logo.svg"
+              alt="logo Licorne"
+              id="hideLogo"
+            />
+            <!-- Add ID to logo -->
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-6 offset-4">
-            <p>
+            <p id="hideOnMenu">
               À la Brasserie Licorne, nous créons des bières artisanales de
               qualité et sans alcool en plein cœur d'Estavayer-le-Lac. Notre
               équipe passionnée s'engage à utiliser des ingrédients locaux et
@@ -209,6 +222,6 @@
         </div>
       </div>
     </footer>
-    <script src="js/main.js" type="module"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

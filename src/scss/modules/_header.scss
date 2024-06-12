@@ -20,7 +20,22 @@ header p {
 
 .header-nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-top: 37px;
+}
+
+.header-settings {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 37px;
+}
+
+.hide-on-menu {
+  display: none;
+}
+
+.hide {
+  display: none;
 }
