@@ -1,0 +1,81 @@
+.display {
+  height: 950px;
+  margin: 43px 0 43px 0;
+  border: 1px black solid;
+  padding-top: 85px;
+  position: relative;
+}
+
+.display h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.display p {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.display-button {
+  display: flex;
+  width: 250px;
+  height: 42px;
+  padding: 10px 25px;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 1px solid #221f1f;
+  margin-top: 30px;
+}
+
+.display-inversed {
+  text-align: right;
+  margin-top: 113px;
+}
+
+.display-ipa-text {
+  margin: 230px 0 0 100px;
+}
+
+.display-blonde {
+  width: 150px;
+  height: 475px;
+  position: absolute;
+  top: 155px;
+  left: 650px;
+  transform: rotate(-9.299deg);
+  transition: scale 0.5s;
+}
+
+.display-blonde:hover {
+  scale: 105%;
+}
+
+.display-ipa {
+  width: 149.675px;
+  height: 472.308px;
+  position: absolute;
+  top: 350px;
+  left: 755px;
+  transform: rotate(19.992deg);
+  transition: scale 0.5s;
+}
+
+.display-ipa:hover {
+  scale: 105%;
+}
+
+.display-brune {
+  width: 149.675px;
+  height: 472.308px;
+  position: absolute;
+  top: 410px;
+  left: 590px;
+  transform: rotate(-17.921deg);
+  transition: scale 0.5s;
+}
+
+.display-brune:hover {
+  scale: 105%;
+}
