@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
     products.forEach((product, idx) => {
       const productImage = document.getElementById(product.imageId);
       const productInfo = document.getElementById(product.infoId);
-
       const isActive = idx === index;
       productImage.classList.toggle("active", isActive);
       productInfo.classList.toggle("active", isActive);
