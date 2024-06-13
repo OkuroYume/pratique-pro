@@ -1,0 +1,181 @@
+.shop {
+  display: flex;
+  width: 1354px;
+  height: 735px;
+  border: 1px black solid;
+}
+
+.shop-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 43px 0;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+.shop-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 665px;
+  height: 734px;
+  border-right: 1px black solid;
+  position: relative;
+}
+
+.product-images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.product-image {
+  position: absolute;
+  top: -200;
+  left: 0;
+  scale: 55%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.product-image.active {
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#prevProduct {
+  left: 10px;
+}
+
+#nextProduct {
+  right: 10px;
+}
+
+.shop-right {
+  padding: 20px;
+}
+
+.product-info {
+  position: relative;
+  margin: 51px 0 20px 100px;
+}
+
+.product-description {
+  width: 410px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.product-description.active {
+  opacity: 1;
+}
+
+.shop-right h2 {
+  color: #221f1f;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.45px;
+}
+
+.shop-right p {
+  font-size: 15px;
+  margin-bottom: 21px;
+}
+
+.shop-right h3 {
+  color: #221f1f;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 30px;
+  font-weight: 400;
+  margin: 12px 0 42px 0;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 630px; /* Keep the top position */
+  left: 530px; /* Keep the left position */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10; /* Ensure the container is above other content */
+}
+
+.arrow {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.top-left-images {
+  position: absolute;
+  top: 40px;
+  left: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.gluten-free-symbol {
+  display: none;
+}
+
+.shop-options {
+  margin-top: 450px;
+  margin-left: -20px;
+}
+
+.shop-quantity {
+  width: 116px;
+  height: 42px;
+  border-radius: 25px;
+  font-size: 18px;
+  background: transparent;
+  border: 1px black solid;
+  text-align: center;
+}
+
+.shop-pack {
+  width: 143px;
+  height: 42px;
+  border-radius: 25px;
+  font-size: 18px;
+  background: transparent;
+  border: 1px black solid;
+  text-align: center;
+}
+
+.shop-button {
+  text-decoration: none;
+  display: flex;
+  width: 230px;
+  height: 42px;
+  padding: 10px 20px;
+  align-items: center;
+  align-content: center;
+  border-radius: 30px;
+  border: 1px solid #221f1f;
+  margin-top: 24px;
+  font-size: 18px;
+}

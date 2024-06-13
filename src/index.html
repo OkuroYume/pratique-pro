@@ -203,6 +203,113 @@
           </div>
         </div>
       </div>
+      <div class="shop-container">
+        <div class="shop">
+          <div class="shop-left">
+            <div class="arrow-container">
+              <button class="arrow" id="prevProduct">
+                <img src="/img/shop-arrow-right.svg" alt="Previous" />
+              </button>
+              <button class="arrow" id="nextProduct">
+                <img src="/img/shop-arrow-left.svg" alt="Next" />
+              </button>
+            </div>
+            <div class="product-images">
+              <img
+                id="productImage1"
+                src="/img/blonde-product.png"
+                alt="Blonde Product"
+                class="product-image active"
+              />
+              <img
+                id="productImage2"
+                src="/img/ipa-product.png"
+                alt="IPA Product"
+                class="product-image"
+              />
+              <img
+                id="productImage3"
+                src="/img/brune-product.png"
+                alt="Brune Product"
+                class="product-image"
+              />
+            </div>
+            <div class="top-left-images">
+              <img
+                src="/img/alcohool-free-symbol.svg"
+                alt="Alcohol Free Symbol"
+              />
+              <img src="/img/bio-symbol.svg" alt="Bio Symbol" />
+              <img
+                src="/img/gluten-free-symbol.svg"
+                alt="Gluten Free Symbol"
+                class="gluten-free-symbol"
+              />
+            </div>
+          </div>
+          <div class="shop-right">
+            <div class="product-info">
+              <div id="productInfo1" class="product-description active">
+                <h2>BLONDE HELLES BLOND</h2>
+                <h3>CHF 4.60</h3>
+                <p>
+                  Brassée avec soin à partir d'eau pure, de malt d'orge et de
+                  houblon, cette bière dorée est sublimée par un arôme naturel
+                  et un colorant E150c. Idéale pour les amateurs de saveurs
+                  classiques, la Licorne Blonde offre une expérience de
+                  dégustation douce et équilibrée.
+                </p>
+                <p>33 CL | 0% ALCOOL | 17 CALORIES</p>
+              </div>
+              <div id="productInfo2" class="product-description">
+                <h2>IPA GLUTEN <br />FREE</h2>
+                <h3>CHF 4.60</h3>
+                <p>
+                  Brassée avec du houblon aux notes d'agrumes, de l'eau, de la
+                  coriandre et du malt de seigle, cette bière offre une
+                  expérience gustative unique et rafraîchissante. Parfaitement
+                  adaptée pour ceux qui suivent un régime sans gluten.
+                </p>
+                <p>33 CL | 0% ALCOOL | 22 CALORIES | GLUTEN FREE</p>
+              </div>
+              <div id="productInfo3" class="product-description">
+                <h2>BRUNE DUNKEL DARK</h2>
+                <h3>CHF 4.60</h3>
+                <p>
+                  Riche et profonde, parfaite pour ceux qui recherchent des
+                  saveurs robustes. Cette bière est brassée avec de l'eau, du
+                  malt torréfié d'orge et de blé, ainsi que du houblon pour une
+                  finition légèrement amère. Sa couleur sombre et son goût
+                  prononcé en font un choix idéal.
+                </p>
+                <p>33 CL | 0% ALCOOL | 24 CALORIES</p>
+              </div>
+            </div>
+          </div>
+          <div class="shop-options">
+            <form>
+              <input
+                class="shop-quantity"
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                max="10"
+                step="1"
+                value="1"
+                placeholder="Quantity"
+              />
+              <select class="shop-pack" id="options" name="options">
+                <option value="option1">4 x 33cl</option>
+                <option value="option2">8 x 33cl</option>
+                <option value="option3">16 x 33cl</option>
+              </select>
+              <br />
+              <a class="shop-button" href="">AJOUTER AU PANIER</a>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer-1">
