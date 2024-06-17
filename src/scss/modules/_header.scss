@@ -10,10 +10,6 @@ header {
   backdrop-filter: blur(5px);
 }
 
-.menu-items {
-  backdrop-filter: none;
-}
-
 .header-logo {
   margin: 255px 0 0 0;
   opacity: 1;
@@ -43,43 +39,6 @@ header p {
   justify-content: flex-end;
   align-items: center;
   margin-top: 37px;
-}
-
-.burger-menu {
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-}
-
-.burger-menu .bar {
-  width: 45px;
-  height: 1px;
-  margin: 7px 0;
-  background-color: #fffaea;
-  transition: 0.3s;
-}
-
-.menu-items {
-  display: none;
-  color: #fffaea;
-  font-size: 55px;
-  border-top: 1px #fffaea solid;
-  width: 468px;
-  position: absolute;
-  top: 130px;
-  left: 415px;
-}
-
-.menu-items a {
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  padding: 33px 0 33px 0;
-  border-bottom: 1px #fffaea solid;
-}
-
-.menu-items.show {
-  display: block;
 }
 
 .hide {

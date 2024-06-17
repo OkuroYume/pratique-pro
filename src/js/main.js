@@ -15,7 +15,7 @@ function toggleMenu(event) {
 
 document.querySelector(".burger-menu").addEventListener("click", toggleMenu);
 
-var menuItems = document.querySelectorAll(".menu-items a");
+var menuItems = document.querySelectorAll(".burger-menu-items a");
 
 menuItems.forEach(function (menuItem) {
   menuItem.addEventListener("click", function () {
@@ -39,7 +39,9 @@ document.addEventListener("DOMContentLoaded", function () {
       const isActive = idx === index;
       productImage.classList.toggle("active", isActive);
       productInfo.classList.toggle("active", isActive);
-      const glutenFreeSymbol = document.querySelector(".gluten-free-symbol");
+      const glutenFreeSymbol = document.querySelector(
+        ".shop-gluten-free-symbol"
+      );
       if (product.imageId === "productImage2") {
         glutenFreeSymbol.style.display = isActive ? "block" : "none";
       }

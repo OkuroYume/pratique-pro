@@ -14,11 +14,11 @@
           <div class="col-6">
             <div class="header-nav">
               <div class="burger-menu" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+                <div class="burger-menu-bar"></div>
+                <div class="burger-menu-bar"></div>
+                <div class="burger-menu-bar"></div>
               </div>
-              <div class="menu-items" id="menuItems">
+              <div class="burger-menu-items" id="menuItems">
                 <a href="#about_us">NOTRE HISTOIRE</a>
                 <a href="#nos_bieres">NOS BIÈRES</a>
                 <a href="#shop">SHOP</a>
@@ -207,35 +207,35 @@
       <div id="shop" class="shop-container">
         <div class="shop">
           <div class="shop-left">
-            <div class="arrow-container">
-              <button class="arrow" id="prevProduct">
+            <div class="shop-arrow-container">
+              <button class="shop-arrow" id="prevProduct">
                 <img src="/img/shop-arrow-right.svg" alt="Previous" />
               </button>
-              <button class="arrow" id="nextProduct">
+              <button class="shop-arrow" id="nextProduct">
                 <img src="/img/shop-arrow-left.svg" alt="Next" />
               </button>
             </div>
-            <div class="product-images">
+            <div class="shop-product-images">
               <img
                 id="productImage1"
                 src="/img/blonde-product.png"
                 alt="Blonde Product"
-                class="product-image active"
+                class="shop-product-image active"
               />
               <img
                 id="productImage2"
                 src="/img/ipa-product.png"
                 alt="IPA Product"
-                class="product-image"
+                class="shop-product-image"
               />
               <img
                 id="productImage3"
                 src="/img/brune-product.png"
                 alt="Brune Product"
-                class="product-image"
+                class="shop-product-image"
               />
             </div>
-            <div class="top-left-images">
+            <div class="shop-top-left-images">
               <img
                 src="/img/alcohool-free-symbol.svg"
                 alt="Alcohol Free Symbol"
@@ -244,13 +244,13 @@
               <img
                 src="/img/gluten-free-symbol.svg"
                 alt="Gluten Free Symbol"
-                class="gluten-free-symbol"
+                class="shop-gluten-free-symbol"
               />
             </div>
           </div>
           <div class="shop-right">
-            <div class="product-info">
-              <div id="productInfo1" class="product-description active">
+            <div class="shop-product-info">
+              <div id="productInfo1" class="shop-product-description active">
                 <h2>BLONDE HELLES BLOND</h2>
                 <h3>CHF 4.60</h3>
                 <p>
@@ -262,7 +262,7 @@
                 </p>
                 <p>33 CL | 0% ALCOOL | 17 CALORIES</p>
               </div>
-              <div id="productInfo2" class="product-description">
+              <div id="productInfo2" class="shop-product-description active">
                 <h2>IPA GLUTEN <br />FREE</h2>
                 <h3>CHF 4.60</h3>
                 <p>
@@ -273,7 +273,7 @@
                 </p>
                 <p>33 CL | 0% ALCOOL | 22 CALORIES | GLUTEN FREE</p>
               </div>
-              <div id="productInfo3" class="product-description">
+              <div id="productInfo3" class="shop-product-description active">
                 <h2>BRUNE DUNKEL DARK</h2>
                 <h3>CHF 4.60</h3>
                 <p>
@@ -371,8 +371,8 @@
           </div>
         </div>
         <div class="container">
-          <div class="row same-height">
-            <div class="col-6 form-container">
+          <div class="row footer-2-same-height">
+            <div class="col-6 footer-1-form-container">
               <form>
                 <input
                   type="email"
@@ -383,7 +383,7 @@
                 />
               </form>
             </div>
-            <div class="col-6 symbols-container">
+            <div class="col-6 footer-2-symbols-container">
               <div class="footer-2-symbols">
                 <a href=""
                   ><img src="/img/logo-insta.svg" alt="Logo instagram"
