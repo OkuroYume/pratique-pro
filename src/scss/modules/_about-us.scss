@@ -26,6 +26,12 @@
   text-decoration: none;
   font-size: 18px;
   margin-top: 86px;
+  transition: 0.3s;
+}
+
+.about-us a:hover {
+  background-color: #221f1f;
+  color: aliceblue;
 }
 
 .about-us h2 {

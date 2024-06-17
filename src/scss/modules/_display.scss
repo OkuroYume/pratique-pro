@@ -18,7 +18,7 @@
 
 .display-button {
   display: flex;
-  width: 250px;
+  width: 275px;
   height: 42px;
   padding: 10px 25px;
   align-items: center;
@@ -26,7 +26,14 @@
   text-decoration: none;
   border-radius: 30px;
   border: 1px solid #221f1f;
+  font-size: 18px;
   margin-top: 30px;
+  transition: 0.3s;
+}
+
+.display-button:hover {
+  background-color: #221f1f;
+  color: aliceblue;
 }
 
 .display-inversed {

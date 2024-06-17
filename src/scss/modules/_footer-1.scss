@@ -15,6 +15,7 @@
   text-decoration: none;
   font-size: 18px;
   margin-top: 86px;
+  transition: 0.3s;
 }
 
 .footer-1-ont {
@@ -24,4 +25,9 @@
 
 .footer-1 h3 {
   padding-top: 95px;
+}
+
+.footer-1 a:hover {
+  background-color: #221f1f;
+  color: aliceblue;
 }
